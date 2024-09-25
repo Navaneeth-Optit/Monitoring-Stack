@@ -11,10 +11,10 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq
+|2,0,1727258867,,"wq"
 :q!
 |2,0,1727257965,,"q!"
-:wq
-|2,0,1727174560,,"wq"
 :%d
 |2,0,1727077014,,"%d"
 :d%
@@ -519,36 +519,52 @@
 |3,0,36,0,1,0,1726641238,"#"
 
 # File marks:
-'0  51  0  ~/Observability/MonitoringStack/variables/ansible/env/common.yml
-|4,48,51,0,1727257965,"~/Observability/MonitoringStack/variables/ansible/env/common.yml"
-'1  101  2  ~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml
-|4,49,101,2,1727174827,"~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml"
-'2  37  42  ~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml
-|4,50,37,42,1727174560,"~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml"
-'3  11  9  ~/Monitoring/Observability-main/variables/ansible/hosts
-|4,51,11,9,1727077224,"~/Monitoring/Observability-main/variables/ansible/hosts"
-'4  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
-|4,52,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
-'5  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,53,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
-'6  1  0  ~/Monitoring/Observability-main/ansible/roles/prometheus/vars/main.yml
-|4,54,1,0,1727076920,"~/Monitoring/Observability-main/ansible/roles/prometheus/vars/main.yml"
-'7  114  0  ~/Monitoring/Observability-main/variables/ansible/env/common.yml
-|4,55,114,0,1727076869,"~/Monitoring/Observability-main/variables/ansible/env/common.yml"
-'8  37  42  ~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml
-|4,56,37,42,1727076655,"~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml"
-'9  1  0  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
-|4,57,1,0,1727076600,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+'0  12  0  ~/.gitignore
+|4,48,12,0,1727258867,"~/.gitignore"
+'1  51  0  ~/Observability/MonitoringStack/variables/ansible/env/common.yml
+|4,49,51,0,1727257965,"~/Observability/MonitoringStack/variables/ansible/env/common.yml"
+'2  101  2  ~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml
+|4,50,101,2,1727174827,"~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml"
+'3  37  42  ~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml
+|4,51,37,42,1727174560,"~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml"
+'4  11  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,52,11,9,1727077224,"~/Monitoring/Observability-main/variables/ansible/hosts"
+'5  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,53,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+'6  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
+|4,54,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
+'7  1  0  ~/Monitoring/Observability-main/ansible/roles/prometheus/vars/main.yml
+|4,55,1,0,1727076920,"~/Monitoring/Observability-main/ansible/roles/prometheus/vars/main.yml"
+'8  114  0  ~/Monitoring/Observability-main/variables/ansible/env/common.yml
+|4,56,114,0,1727076869,"~/Monitoring/Observability-main/variables/ansible/env/common.yml"
+'9  37  42  ~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml
+|4,57,37,42,1727076655,"~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml"
 
 # Jumplist (newest first):
+-'  12  0  ~/.gitignore
+|4,39,12,0,1727258867,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1727258860,"~/.gitignore"
 -'  51  0  ~/Observability/MonitoringStack/variables/ansible/env/common.yml
 |4,39,51,0,1727257965,"~/Observability/MonitoringStack/variables/ansible/env/common.yml"
+-'  51  0  ~/Observability/MonitoringStack/variables/ansible/env/common.yml
+|4,39,51,0,1727257965,"~/Observability/MonitoringStack/variables/ansible/env/common.yml"
+-'  1  0  ~/Observability/MonitoringStack/variables/ansible/env/common.yml
+|4,39,1,0,1727257480,"~/Observability/MonitoringStack/variables/ansible/env/common.yml"
 -'  1  0  ~/Observability/MonitoringStack/variables/ansible/env/common.yml
 |4,39,1,0,1727257480,"~/Observability/MonitoringStack/variables/ansible/env/common.yml"
 -'  101  2  ~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml
 |4,39,101,2,1727174827,"~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml"
 -'  101  2  ~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml
 |4,39,101,2,1727174827,"~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml"
+-'  101  2  ~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml
+|4,39,101,2,1727174827,"~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml"
+-'  101  2  ~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml
+|4,39,101,2,1727174827,"~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml"
+-'  1  2  ~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml
+|4,39,1,2,1727174607,"~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml"
+-'  1  2  ~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml
+|4,39,1,2,1727174607,"~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml"
 -'  1  2  ~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml
 |4,39,1,2,1727174607,"~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml"
 -'  1  2  ~/Monitoring/Observability-main/ansible/roles/grafana/tasks/dashboards.yml
@@ -561,6 +577,14 @@
 |4,39,37,42,1727174560,"~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml"
 -'  37  42  ~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml
 |4,39,37,42,1727174560,"~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml"
+-'  37  42  ~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml
+|4,39,37,42,1727174560,"~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml"
+-'  37  42  ~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml
+|4,39,37,42,1727174560,"~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml"
+-'  37  42  ~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml
+|4,39,37,42,1727174560,"~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml"
+-'  37  42  ~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml
+|4,39,37,42,1727174560,"~/Monitoring/Observability-main/ansible/deploy-stack-vm.yml"
 -'  11  9  ~/Monitoring/Observability-main/variables/ansible/hosts
 |4,39,11,9,1727077224,"~/Monitoring/Observability-main/variables/ansible/hosts"
 -'  11  9  ~/Monitoring/Observability-main/variables/ansible/hosts
@@ -577,6 +601,38 @@
 |4,39,11,9,1727077224,"~/Monitoring/Observability-main/variables/ansible/hosts"
 -'  11  9  ~/Monitoring/Observability-main/variables/ansible/hosts
 |4,39,11,9,1727077224,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  11  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,11,9,1727077224,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  11  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,11,9,1727077224,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  11  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,11,9,1727077224,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  11  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,11,9,1727077224,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  11  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,11,9,1727077224,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  11  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,11,9,1727077224,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  11  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,11,9,1727077224,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  11  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,11,9,1727077224,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  5  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,5,9,1727077174,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  5  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,5,9,1727077174,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  5  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,5,9,1727077174,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  5  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,5,9,1727077174,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  5  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,5,9,1727077174,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  5  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,5,9,1727077174,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  5  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,5,9,1727077174,"~/Monitoring/Observability-main/variables/ansible/hosts"
+-'  5  9  ~/Monitoring/Observability-main/variables/ansible/hosts
+|4,39,5,9,1727077174,"~/Monitoring/Observability-main/variables/ansible/hosts"
 -'  5  9  ~/Monitoring/Observability-main/variables/ansible/hosts
 |4,39,5,9,1727077174,"~/Monitoring/Observability-main/variables/ansible/hosts"
 -'  5  9  ~/Monitoring/Observability-main/variables/ansible/hosts
@@ -625,6 +681,38 @@
 |4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
 -'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
 |4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
+-'  36  91  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
+|4,39,36,91,1727077030,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
 -'  1  0  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
 |4,39,1,0,1727077014,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
 -'  1  0  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
@@ -653,96 +741,15 @@
 |4,39,1,0,1727077014,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
 -'  1  0  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
 |4,39,1,0,1727077014,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
--'  1  0  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
-|4,39,1,0,1727077014,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
--'  1  0  ~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2
-|4,39,1,0,1727077014,"~/Monitoring/Observability-main/ansible/roles/prometheus/templates/prometheus.yml.j2"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  236  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,236,28,1727076971,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  1  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,1,28,1727076945,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  1  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,1,28,1727076945,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  1  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,1,28,1727076945,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  1  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,1,28,1727076945,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  1  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,1,28,1727076945,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  1  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,1,28,1727076945,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  1  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,1,28,1727076945,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  1  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,1,28,1727076945,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  1  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,1,28,1727076945,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
--'  1  28  ~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml
-|4,39,1,28,1727076945,"~/Monitoring/Observability-main/ansible/roles/prometheus/defaults/main.yml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1727258866	0
+	"	12	0
+	^	12	0
+	.	11	7
+	+	11	7
 
 > ~/Observability/MonitoringStack/variables/ansible/env/common.yml
 	*	1727257964	0
